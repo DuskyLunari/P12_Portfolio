@@ -1,0 +1,99 @@
+
+/***** GLOBAL *****/
+
+/* color theme */
+:root {
+    --active: #0376E3;
+    --text-color: #EFEFEF;
+    --background-container-color: #1B1C22;
+    --background-color: #1B1D24;
+    --separator-decoration: #30333A;
+}
+
+/* font style & color */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+/***** UTILS *****/
+
+/* ensuring easy handling and common behavior on the page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li, a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+h2 {
+    font-size: 26px
+}
+
+h3 {
+    font-size: 22px;
+}
+
+/***** HEADER *****/
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 15px;
+}
+
+header .nav-container {
+    padding: 0; /* Remove padding from the container */
+    width: 100%;
+    border-bottom: 1px solid var(--separator-decoration);
+    border-top: 1px solid var(--separator-decoration);
+}
+
+header .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 15px 0; /* Adjust padding for vertical spacing */
+    box-shadow: rgba(0, 0, 0, 0.17) 0px 8px 16px 0px; /* Adjust shadow offset */
+    width: 100%;
+}
+
+.navbar .navbar-link {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar .navbar-link + .navbar-link {
+    border-left: 1px solid var(--separator-decoration);
+    padding-left: 20px;
+    height: 25px;
+}
+
+.navbar .navbar-link a {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.navbar .navbar-link a:hover {
+    color: var(--active);
+}
+
+/***** MAIN *****/
+
+/***** FOOTER *****/
