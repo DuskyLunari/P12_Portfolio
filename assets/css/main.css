@@ -109,6 +109,7 @@ header .navbar {
     align-items: center;
     justify-content: center;
     gap: 15%;
+    padding: 15px 0 15px 0;
     background-color: var(--layout-color);
 }
 
