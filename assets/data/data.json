@@ -33,70 +33,87 @@
 
     "projects": [
         {
-            "title": "placeholder",
-            "url": "",
-            "desc": "",
-            "image": "",
+            "title": "OhMyFood",
+            "url": "https://github.com/DuskyLunari/P4_OhMyFood_OC",
+            "desc": "Site sous HTML & Sass avec l'incorporation d'animations",
+            "image": "assets/images/Oh-my-food.webp",
             "tags": [
                 {
-                    "label": ""
+                    "label": "HTML"
                 },
                 {
-                    "label": ""
-                },
-                {
-                    "label": ""
+                    "label": "SASS"
                 }
             ]
         },
         {
-            "title": "placeholder",
-            "url": "",
-            "desc": "",
-            "image": "",
+            "title": "Print it",
+            "url": "https://github.com/DuskyLunari/P5_Print-it",
+            "desc": "Réalisation d'un caroussel pour le site Print it",
+            "image": "assets/images/Print-it.webp",
             "tags": [
                 {
-                    "label": ""
+                    "label": "HTML"
                 },
                 {
-                    "label": ""
+                    "label": "CSS"
                 },
                 {
-                    "label": ""
+                    "label": "Javascript"
                 }
             ]
         },
         {
-            "title": "placeholder",
-            "url": "",
-            "desc": "",
-            "image": "",
+            "title": "Kasa",
+            "url": "https://github.com/DuskyLunari/P7_Kasa",
+            "desc": "Site Kasa employant React",
+            "image": "assets/images/Kasa.webp",
             "tags": [
                 {
-                    "label": ""
+                    "label": "HTML"
                 },
                 {
-                    "label": ""
+                    "label": "SASS"
                 },
                 {
-                    "label": ""
+                    "label": "React"
                 }
             ]
         },
         {
-            "title": "placeholder",
-            "url": "",
-            "desc": "",
-            "image": "",
+            "title": "Nina Carducci",
+            "url": "https://github.com/DuskyLunari/P8_Nina-Carducci",
+            "desc": "Site du photographe Nina Carducci optimisé en référencement SEO",
+            "image": "assets/images/Nina-Carducci.webp",
             "tags": [
                 {
-                    "label": ""
+                    "label": "HTML"
                 },
                 {
-                    "label": ""
+                    "label": "CSS"
                 },
                 {
-                    "label": ""
+                    "label": "SEO"
+                }
+            ]
+        },
+        {
+            "title": "Argent Bank",
+            "url": "https://github.com/DuskyLunari/P10_Argent-Bank",
+            "desc": "Site web bancaire avec connection d'utilisateur et gestion de profil via l'outil Redux pour gérer les états de manière généralisés",
+            "image": "assets/images/Argent-Bank.webp",
+            "tags": [
+                {
+                    "label": "HTML"
+                },
+                {
+                    "label": "SASS"
+                },
+                {
+                    "label": "React"
+                },
+                {
+                    "label": "Redux"
                 }
             ]
         }
