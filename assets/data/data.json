@@ -1,0 +1,104 @@
+
+{
+    "skills": [
+        {
+            "icon": "assets/images/icons/html5.png",
+            "label": "HTML5"
+        },
+        {
+            "icon": "assets/images/icons/css3.png",
+            "label": "CSS"
+        },
+        {
+            "icon": "assets/images/icons/javascript.png",
+            "label": "Javascript"
+        },
+        {
+            "icon": "assets/images/icons/sass.png",
+            "label": "Sass"
+        },
+        {
+            "icon": "assets/images/icons/react.png",
+            "label": "React"
+        },
+        {
+            "icon": "assets/images/icons/redux.png",
+            "label": "Redux"
+        },
+        {
+            "icon": "assets/images/icons/github.png",
+            "label": "Github"
+        }
+    ],
+
+    "projects": [
+        {
+            "title": "placeholder",
+            "url": "",
+            "desc": "",
+            "image": "",
+            "tags": [
+                {
+                    "label": ""
+                },
+                {
+                    "label": ""
+                },
+                {
+                    "label": ""
+                }
+            ]
+        },
+        {
+            "title": "placeholder",
+            "url": "",
+            "desc": "",
+            "image": "",
+            "tags": [
+                {
+                    "label": ""
+                },
+                {
+                    "label": ""
+                },
+                {
+                    "label": ""
+                }
+            ]
+        },
+        {
+            "title": "placeholder",
+            "url": "",
+            "desc": "",
+            "image": "",
+            "tags": [
+                {
+                    "label": ""
+                },
+                {
+                    "label": ""
+                },
+                {
+                    "label": ""
+                }
+            ]
+        },
+        {
+            "title": "placeholder",
+            "url": "",
+            "desc": "",
+            "image": "",
+            "tags": [
+                {
+                    "label": ""
+                },
+                {
+                    "label": ""
+                },
+                {
+                    "label": ""
+                }
+            ]
+        }
+    ]
+}
