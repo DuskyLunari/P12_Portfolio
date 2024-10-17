@@ -1,6 +1,6 @@
 async function getProjects() {
     try {
-        const response = await fetch("/assets/data/data.json");
+        const response = await fetch("assets/data/data.json");
         const data = await response.json();
         const { projects } = data;
 
