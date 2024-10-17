@@ -117,6 +117,22 @@ section h2 {
     padding-left: 50px;
 }
 
+/* presentation section */
+.presentation-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px;
+}
+
+.presentation-container p {
+    width: 75%;
+}
+
+.presentation-container img {
+    width: 25%;
+}
+
 /* skill section */
 #skills-container {
     display: grid;
