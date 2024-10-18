@@ -49,6 +49,10 @@ h3 {
     font-size: 22px;
 }
 
+br {
+    padding-bottom: 10px;
+}
+
 /***** HEADER *****/
 
 .header-container {
@@ -109,7 +113,8 @@ header .navbar {
 section {
     background-color: var(--layout-color);
     width: 100%;
-    padding: 35px 0 35px 0;
+    border-radius: 8px;
+    padding: 50px 0 50px 0;
     margin: 50px 0 50px 0;
 }
 
@@ -122,15 +127,19 @@ section h2 {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 50px;
+    padding:  30px 50px 50px 50px;
 }
 
 .presentation-container p {
-    width: 75%;
+    width: 65%;
+    font-size: 16px;
 }
 
 .presentation-container img {
     width: 25%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
 }
 
 /* skill section */
