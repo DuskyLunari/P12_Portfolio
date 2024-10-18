@@ -138,6 +138,7 @@ section h2 {
 }
 
 .presentation-container img {
+    max-height: 282px;
     width: 25%;
     height: auto;
     border-radius: 15px;
