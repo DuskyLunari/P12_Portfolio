@@ -443,20 +443,26 @@ section h2 {
 
     /* presentation section */
     .presentation-container {
-        padding: 20px 30px;
         flex-direction: column-reverse;
         align-items: center;
-    }
-
-    .presentation-container p {
-        width: 80%;
-        font-size: 14px;
-        text-align: center;
+        padding: 20px;
     }
 
     .presentation-container img {
-        width: 50%;
+        max-width: 50%;
+        width: auto;
+        height: auto;
         margin-bottom: 20px;
+    }
+
+    .text-container {
+        width: 90%;
+        text-align: center;
+    }
+
+    .presentation-container p {
+        font-size: 14px;
+        line-height: 1.6;
     }
 
     /* footer */
